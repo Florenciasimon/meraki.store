@@ -1,0 +1,23 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #000b24, #091d33);
+}
+
+#cart-widget > span {
+  color: coral;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+#container{
+  margin-top: 2rem;
+  text-align: center;
+  color: whitesmoke;
+}
