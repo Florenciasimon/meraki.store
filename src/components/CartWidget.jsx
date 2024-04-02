@@ -4,7 +4,7 @@ export const CartWidget = () => {
     return (
         <div id="cart-widget">
             <img src={carrito} alt="Carrito de compras" width={30} />
-            <span>10</span>
+            <span>1</span>
         </div>
     );
 };

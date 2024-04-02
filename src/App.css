@@ -21,3 +21,16 @@ body{
   text-align: center;
   color: whitesmoke;
 }
+
+#card{
+  margin: 1rem;
+  width: 20rem;
+  height: 30rem;
+  background-color: #205073;
+  border-color: whitesmoke;
+  color: whitesmoke;
+}
+
+#item.picture{
+  height:  10vh;
+}
