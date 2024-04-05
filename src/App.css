@@ -8,6 +8,7 @@ body{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   height: 100vh;
   background-image: linear-gradient(to bottom, #000b24, #091d33);
+  color: whitesmoke;
 }
 
 #cart-widget > span {
@@ -19,7 +20,6 @@ body{
 #container{
   margin-top: 2rem;
   text-align: center;
-  color: whitesmoke;
 }
 
 #card{
@@ -33,4 +33,32 @@ body{
 
 #item.picture{
   height:  10vh;
+}
+
+
+.DetalleProducto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ContainerProducto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.Counter{
+  width: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Controls{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-bottom: 1rem;
 }
